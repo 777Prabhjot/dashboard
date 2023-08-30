@@ -4,7 +4,7 @@ import "../app/Clock.css";
 
 const Clock = ({ isBirthday }) => {
   const today = new Date().getTime();
-  const targetDate = new Date("2023-09-02T00:00:00").getTime();
+  const targetDate = new Date("2023-08-30T20:40:00").getTime();
 
   // countdown
   const timerDiv = useRef(null);
