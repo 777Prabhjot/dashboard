@@ -8,7 +8,7 @@ const Card = () => {
     <div className="cardContainer">
       <div className="birthdayCard">
         <div className="cardFront" onClick={() => setClick(true)}>
-          <h3 className="happy">CLICK ME TEDDU!</h3>
+          <h3 className="happy !rotate-0">CLICK ME TEDDU!</h3>
           <div className="balloons">
             <div className="balloonOne" />
             <div className="balloonTwo" />
